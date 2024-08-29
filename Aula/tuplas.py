@@ -1,7 +1,10 @@
 ### Tuplas ###
 
+# Tupla é uma lista imutável
+
 my_tuple = tuple()
 my_other_tuple = () # Se tiver colchete é lista, se tiver parêntese é tupla
+my_new_other_tuple = 'item1', 'item2' # Também é possível criar uma tupla sem colocar parênteses
 
 my_tuple = (35, 1.77, "Hugo", "Valuar")
 my_other_tuple = (35, 60, 30)
