@@ -10,7 +10,7 @@ Faça a contagem de tentativas do seu usuário
 
 import os
 
-palavra_secreta = 'oi'
+palavra_secreta = 'thaygla'
 letras_acertadas = ''
 tentativas = 0
 

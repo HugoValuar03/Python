@@ -35,6 +35,17 @@ print(my_other_list.count(19)) #Retorna quantas vezes o elemento passsado no 'co
 # Desempacotamento
 age, heigh, name, last_name = my_other_list # Define as variaveis de acordo com a ordem das variaveis e ordem dos indices da lista
 
+# Desempacotamento em chamadas de funções
+string = 'ABCD'
+lista = ['Maria', 'Helena', 1, 2, 3, 'Eduarda']
+tupla = 'Python', 'é', 'legal'
+
+# p, b, *_, ap, u = lista
+# print(p, u) # Resultado: Maria 
+
+print('Maria', 'Helena', 1, 2, 3, 'Eduarda')
+print(*lista) #Retorna a mesma coisa do print acima
+
 # Necessita ter o mesmo número de variáveis para o mesmo número de itens na lista
 print(age)
 
