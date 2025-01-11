@@ -33,7 +33,7 @@ def mosto_argumentos_nomeados(*args, **kwargs):
 mosto_argumentos_nomeados(1, 2, nome='Joana', qlq=123)
 ```
 
-caso haja argumentos não nomeados nos argumentos da função, todos irão juntas para a parte 'NÃO NOMEADOS', como é mostrado no print acima
+caso haja argumentos não nomeados nos argumentos da função, todos irão juntas para a parte 'NÃO NOMEADOS', como é mostrado no print acima.
 
 A saída do código acima ficará da seguinte forma:
 
