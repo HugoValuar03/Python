@@ -32,9 +32,9 @@ Outro exemplo para criar um dicionário seria usando o dict()
 pessoa = dict(nome='Luiz Otávio', sobrenome='Ferreira')
 ```
 
-'nome' é a chave, e 'Luiz Otávio' é o dado que a chave nome contém
+'Nome' é a chave, e 'Luiz Otávio' é o dado que a chave nome contém
 
-Porém não é muito usado esta forma, então é mais indicado criar com as chaves
+Porém, não é muito usado esta forma, então é mais indicado criar com as chaves
 
 ----
 
@@ -55,7 +55,7 @@ for chave in pessoa:
 	print(chave)
 ```
 
-agora para imprimir tanto a chave quanto o dado de cada chave de forma organizada, faça-se da seguinte forma:
+Agora para imprimir tanto a chave quanto o dado de cada chave de forma organizada, faça-se da seguinte forma:
 ```
 for chave in pessoa:
 	print(chave, pessoa[chave])
@@ -86,7 +86,7 @@ ___
 
 ### Métodos dunder
 
-*Os exemplos a seguir serão apartir do seguinte código:*
+***Os exemplos a seguir serão a partir do seguinte código:***
 ```
 pessoa = {
 	'nome': 'Luiz Otávio'
@@ -102,7 +102,7 @@ print(pessoa.__len__())
 ```
 Saída:`2`
 
-porém é a mesma coisa que
+Porém, é o mesmo que
 ```
 print(len(pessoa))
 ```

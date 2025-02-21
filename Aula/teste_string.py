@@ -1,13 +1,13 @@
 """
 Execício
-Peça ao usuário para digitar seu nome
-Peça ao usuário para digitar sua idade
+Peça ao usuário para digitar o seu nome
+Peça ao usuário para digitar a sua idade
 Se nome e idade forem digitados:
     Exiba:
-        Seu nome é {nome}
-        Seu nome invertido é {nome invertido}
-        Seu nome contém (ou não) contém espaços
-        Seu nome tem {quantidade de letras} letras
+        O seu nome é {nome}
+        O seu nome invertido é {nome invertido}
+        O seu nome contém (ou não) contém espaços
+        O seu nome tem {quantidade de letras} letras
         A primeira letra do seu nome é {letra}
         a última letra do seu nome é {letra}
 Se nada for digitado em nome ou idade:
@@ -16,7 +16,7 @@ Se nada for digitado em nome ou idade:
 nome = input("Digite seu nome: ")
 idade = input("Digite sua idade: ")
 
-if(not idade.isspace() and not nome.isspace):
+if not idade.isspace() and not nome.isspace:
     if idade.isdigit():
         print(f"Seu nome é {nome}")
         print(f"Seu nome invertido é {nome[::-1]}")

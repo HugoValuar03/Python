@@ -4,7 +4,7 @@ args seria argumentos não nomeados
 
 \*args (empacotamento e desempacotamento), é chamado de args por convenção
 
-um exemplo de desmpacotamento seria:
+um exemplo de desempacotamento seria:
 ```
 x, y, *resto = 1, 2, 3, 4
 print(x, y, *resto)
@@ -12,6 +12,7 @@ print(x, y, *resto)
 
 o \*resto seria do 3 pra frente 
 
+---
 ## Empacotamento
 
 Se for escrito o seguinte código:
@@ -41,6 +42,8 @@ def soma(*args)
 soma(1, 2, 3, 4, 5, 6)
 ```
 a saída será: ``21``
+
+---
 ## Desempacotamento
 
 Um exemplo de desempacotamento seria
