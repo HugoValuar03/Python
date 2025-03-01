@@ -88,4 +88,4 @@ plt.xlabel('n')
 plt.show()
 ```
 
-![img.png](assets/img.png)
+![img.png](../assets/img.png)
