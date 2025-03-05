@@ -1,4 +1,4 @@
-# Classe e impressão
+# Vetores não ordenados
 
 Será utilizado a biblioteca numpy para a implementação dos vetores
 
